@@ -1,7 +1,5 @@
 #include "ofApp.h"
 
-BlueDelegate	 *delegate = [BlueDelegate alloc];
-
 //--------------------------------------------------------------
 void ofApp::setup(){
 

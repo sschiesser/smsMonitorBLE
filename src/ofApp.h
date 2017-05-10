@@ -1,11 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
-//#if DEBUG
-#import "smsMonitorBLEDebug-Swift.h"
-//#elif RELEASE
-//#import "smsMonitorBLE-Swift.h"
-//#endif
+#include "ofxBle.h"
+
 
 class ofApp : public ofBaseApp{
 
@@ -26,4 +23,5 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+        ofxBleCentral mCentral;
 };

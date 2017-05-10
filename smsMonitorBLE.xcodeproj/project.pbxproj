@@ -11,7 +11,7 @@
 		00413C35AAE31B483D7538AB /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E02D9F3A04B5573758EBCF8 /* imgui_draw.cpp */; };
 		016BB55A143AD429330F07DB /* Gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0E2047B4D03D5151730B52B /* Gui.cpp */; };
 		0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3AA0D4FAA89D0F8A0E545 /* OscReceivedElements.cpp */; };
-		0FC570291EC3131B009D6633 /* bleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC570281EC3131B009D6633 /* bleInterface.swift */; };
+		0F1128271EC334B100A91244 /* ofxBleCentral.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F1128261EC334B100A91244 /* ofxBleCentral.mm */; };
 		27CF6B6E279F8EE58C9D4B90 /* BaseTheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E362ECECD928E7B3EBA5C53 /* BaseTheme.cpp */; };
 		462C212713EFFA5383B35DAB /* EngineGLFW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C686ADB50E8F79292BA80 /* EngineGLFW.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
@@ -33,8 +33,8 @@
 		C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8881B3C8C0A1C45F042E7A /* OscPrintReceivedElements.cpp */; };
 		DBBE189ECD171A97DCF46C6A /* BaseEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7BDAD29F580A47FF56B52 /* BaseEngine.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		E4B69E200A3A1BDC003C02F2 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.mm */; };
-		E4B69E210A3A1BDC003C02F2 /* ofApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.mm */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 		E984796BE84AA4315636B6E7 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CC36552DD0A47E758D71FB5 /* imgui_demo.cpp */; };
 /* End PBXBuildFile section */
 
@@ -73,10 +73,11 @@
 		029684CF678F70F6D3537A29 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscOutboundPacketStream.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h; sourceTree = SOURCE_ROOT; };
 		0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscParameterSync.cpp; path = ../../../addons/ofxOsc/src/ofxOscParameterSync.cpp; sourceTree = SOURCE_ROOT; };
 		0BB9F7D314FADD51BAB96878 /* ThemeTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ThemeTest.h; path = ../../../addons/ofxImGui/src/ThemeTest.h; sourceTree = SOURCE_ROOT; };
+		0F1128231EC328BA00A91244 /* ofxBle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBle.h; sourceTree = "<group>"; };
+		0F1128251EC333D600A91244 /* ofxBleCentral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBleCentral.h; sourceTree = "<group>"; };
+		0F1128261EC334B100A91244 /* ofxBleCentral.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxBleCentral.mm; sourceTree = "<group>"; };
 		0F99D91BAC240A07901D0E6A /* stb_rect_pack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stb_rect_pack.h; path = ../../../addons/ofxImGui/libs/imgui/src/stb_rect_pack.h; sourceTree = SOURCE_ROOT; };
-		0FC570281EC3131B009D6633 /* bleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bleInterface.swift; sourceTree = "<group>"; };
 		0FFAAAEA1EC31AAC00AFE8E2 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
-		0FFAAAEC1EC31BBC00AFE8E2 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = ../../../../../../../System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<group>"; };
 		12EBC5773B81D5E37E068E24 /* imgui_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imgui_internal.h; path = ../../../addons/ofxImGui/libs/imgui/src/imgui_internal.h; sourceTree = SOURCE_ROOT; };
 		20F35AFADAF0068B067E713F /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		23640F57DF6C4BB6BFC5DA4C /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
@@ -128,8 +129,8 @@
 		E135C7F22D40FCFD9C5AB94B /* imgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imgui.h; path = ../../../addons/ofxImGui/libs/imgui/src/imgui.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* smsMonitorBLEDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smsMonitorBLEDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = src/main.mm; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = ofApp.mm; path = src/ofApp.mm; sourceTree = SOURCE_ROOT; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -157,7 +158,6 @@
 		0FFAAAE91EC31AAC00AFE8E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FFAAAEC1EC31BBC00AFE8E2 /* IOBluetooth.framework */,
 				0FFAAAEA1EC31AAC00AFE8E2 /* IOBluetooth.framework */,
 			);
 			name = Frameworks;
@@ -368,10 +368,12 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.mm */,
-				E4B69E1E0A3A1BDC003C02F2 /* ofApp.mm */,
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				0FC570281EC3131B009D6633 /* bleInterface.swift */,
+				0F1128231EC328BA00A91244 /* ofxBle.h */,
+				0F1128251EC333D600A91244 /* ofxBleCentral.h */,
+				0F1128261EC334B100A91244 /* ofxBleCentral.mm */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -500,14 +502,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC570291EC3131B009D6633 /* bleInterface.swift in Sources */,
-				E4B69E200A3A1BDC003C02F2 /* main.mm in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* ofApp.mm in Sources */,
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				DBBE189ECD171A97DCF46C6A /* BaseEngine.cpp in Sources */,
 				27CF6B6E279F8EE58C9D4B90 /* BaseTheme.cpp in Sources */,
 				462C212713EFFA5383B35DAB /* EngineGLFW.cpp in Sources */,
 				000315A9FA4E2F9A09533E05 /* EngineOpenGLES.cpp in Sources */,
 				016BB55A143AD429330F07DB /* Gui.cpp in Sources */,
+				0F1128271EC334B100A91244 /* ofxBleCentral.mm in Sources */,
 				A0F2BFB15B92B4C6EB9527DE /* Helpers.cpp in Sources */,
 				5C2607C471F8D48C0036C56E /* imgui.cpp in Sources */,
 				E984796BE84AA4315636B6E7 /* imgui_demo.cpp in Sources */,
